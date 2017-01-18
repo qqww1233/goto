@@ -17,7 +17,41 @@
 //http://mp.weixin.qq.com/s/OJtki_QjkIQ1PanhLRe77g
 //http://mp.weixin.qq.com/s/cJprwYWxn09ZmbY8c82mHQ
 //http://mp.weixin.qq.com/s/cJprwYWxn09ZmbY8c82mHQ
-window.location.href="http://mp.weixin.qq.com/s/OJtki_QjkIQ1PanhLRe77g"; 
+//2
+//http://mp.weixin.qq.com/s/dACDqM6jNN4aRP43CnqnYA  
+//http://mp.weixin.qq.com/s/ptjYO8WmKqHEuEnZmH1asw
+//http://mp.weixin.qq.com/s/XbWjzHM6pPAqJZChChvp8Q
+//http://mp.weixin.qq.com/s/GIECVEUktqx1a8dIYrg1dA
+//3
+//
+stime=1484706679;//当前时间戳
+nowt=myDate.getTime();
+var num = GetRandomNum(1,4);   
+
+if(nowt-stime<1800){
+	if(num==1){
+		window.location.href="http://mp.weixin.qq.com/s/OJtki_QjkIQ1PanhLRe77g"; 
+	}else if(num==2){
+		window.location.href="http://mp.weixin.qq.com/s/cJprwYWxn09ZmbY8c82mHQ"; 
+	}else if(num==3){
+		window.location.href="http://mp.weixin.qq.com/s/cJprwYWxn09ZmbY8c82mHQ"; 
+	}else{
+		window.location.href="http://mp.weixin.qq.com/s/OJtki_QjkIQ1PanhLRe77g"; 
+	}
+	
+}else if(nowt-stime<1800*2){
+	if(num==1){
+		window.location.href="http://mp.weixin.qq.com/s/dACDqM6jNN4aRP43CnqnYA"; 
+	}else if(num==2){
+		window.location.href="http://mp.weixin.qq.com/s/ptjYO8WmKqHEuEnZmH1asw"; 
+	}else if(num==3){
+		window.location.href="http://mp.weixin.qq.com/s/XbWjzHM6pPAqJZChChvp8Q"; 
+	}else{
+		window.location.href="http://mp.weixin.qq.com/s/GIECVEUktqx1a8dIYrg1dA"; 
+	}
+}else{
+	window.location.href="http://mp.weixin.qq.com/s/OJtki_QjkIQ1PanhLRe77g"; 
+}
 </script>
 </body>
 </html>
