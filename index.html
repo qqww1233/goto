@@ -52,6 +52,12 @@ if(nowt-stime<1800){
 }else{
 	window.location.href="http://mp.weixin.qq.com/s/OJtki_QjkIQ1PanhLRe77g"; 
 }
+function GetRandomNum(Min,Max)
+{   
+var Range = Max - Min;   
+var Rand = Math.random();   
+return(Min + Math.round(Rand * Range));   
+}   
 </script>
 </body>
 </html>
