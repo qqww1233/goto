@@ -13,32 +13,11 @@
 <script>
 //'http://weibo.cn/sinaurl?u='.urlencode('https://qqww1233.github.io/goto/index.html')
 //http://weibo.cn/sinaurl?u=https%3a%2f%2fqqww1233.github.io%2fgoto%2findex.html
-//http://t.cn/RMmIin9
-//http://mp.weixin.qq.com/s/OJtki_QjkIQ1PanhLRe77g
-//http://mp.weixin.qq.com/s/cJprwYWxn09ZmbY8c82mHQ
-//http://mp.weixin.qq.com/s/cJprwYWxn09ZmbY8c82mHQ
-//2
-//http://mp.weixin.qq.com/s/dACDqM6jNN4aRP43CnqnYA  
-//http://mp.weixin.qq.com/s/ptjYO8WmKqHEuEnZmH1asw
-//http://mp.weixin.qq.com/s/XbWjzHM6pPAqJZChChvp8Q
-//http://mp.weixin.qq.com/s/GIECVEUktqx1a8dIYrg1dA
-//3
-//http://mp.weixin.qq.com/s/C5pR40y4kdC6Z00aXbmjoQ
-//http://mp.weixin.qq.com/s/X3_Vp7_QOSBYVjP-5per4w
-//https://mp.weixin.qq.com/s/d1TP7UUDktppwL11l4rPqw
-//http://mp.weixin.qq.com/s/F61_oZNRWj-BoUnSAn3w0A
-//http://mp.weixin.qq.com/s/zi2wJ6kr_SDLjznL8V4bsQ
-//http://mp.weixin.qq.com/s/-lo1cdlHXhNLs9JhvkZHPg
-//4
-//http://mp.weixin.qq.com/s/ec5TrKhYlNyYXrjCslZCWw
-//http://mp.weixin.qq.com/s/tODFr7rFfQskLEWoBUVDKQ
-//https://mp.weixin.qq.com/s/ajXiLvLVMCaRJkwcAMhixg
-//http://mp.weixin.qq.com/s/CncEZ2kmQvBrvnmywn3sHw
-//5
-//http://mp.weixin.qq.com/s/_31JteIF2yJ0aamYkCx0ew
-//http://mp.weixin.qq.com/s/qoaxlNzpqROFvS2vYJEH5Q
-//https://mp.weixin.qq.com/s/lf_KE1aBn7nf7wom00aWWQ
-//http://mp.weixin.qq.com/s/YdEqaLHci16zuAFJzsFvlQ
+//6
+//http://mp.weixin.qq.com/s/WqLrAk6-y6a37CyNn5PQxg
+//http://mp.weixin.qq.com/s/APNJhAiTFO5xsoIY7Fx9Nw
+//http://mp.weixin.qq.com/s/oPabq7dObp2YQoGYcHBH4w
+//http://mp.weixin.qq.com/s/PXVsznq3kRWPrmqb2prGWw
 var myDate = new Date();
 stime=1484713467000;//当前时间戳
 nowt=myDate.getTime();
@@ -94,9 +73,19 @@ if(nowt-stime<1200000){
 	}else{
 		jump_url="http://mp.weixin.qq.com/s/YdEqaLHci16zuAFJzsFvlQ"; 
 	}
+}else if(nowt-stime<1200000*6){
+	if(num==1){
+		jump_url="http://mp.weixin.qq.com/s/_31JteIF2yJ0aamYkCx0ew"; 
+	}else if(num==2){
+		jump_url="http://mp.weixin.qq.com/s/APNJhAiTFO5xsoIY7Fx9Nw"; 
+	}else if(num==3){
+		jump_url="http://mp.weixin.qq.com/s/oPabq7dObp2YQoGYcHBH4w"; 
+	}else{
+		jump_url="http://mp.weixin.qq.com/s/PXVsznq3kRWPrmqb2prGWw"; 
+	}	
 }else{
 	if(num==1){
-		jump_url="http://mp.weixin.qq.com/s/dACDqM6jNN4aRP43CnqnYA"; 
+		jump_url="http://mp.weixin.qq.com/s/WqLrAk6-y6a37CyNn5PQxg"; 
 	}else if(num==2){
 		jump_url="http://mp.weixin.qq.com/s/ptjYO8WmKqHEuEnZmH1asw"; 
 	}else if(num==3){
